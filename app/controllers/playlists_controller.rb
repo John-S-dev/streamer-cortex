@@ -7,3 +7,5 @@ class PlaylistsController < ApplicationController
     @videos = @playlist.videos
   end
 
+    if @playlist.save
+      redirect_to videos_path, notice: 'Playlist created successfully'

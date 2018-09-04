@@ -11,6 +11,8 @@ The Video Playlist App allows users to interact with video content using data fr
 - **API**: Mock YouTube API (https://mock-youtube-api-f3d0c17f0e38.herokuapp.com/api/videos)
 - **Database**: SQLite
 
+### Prerequisites
+
 Ensure you have the following installed:
 - Ruby (version 3.2.2)
 - Rails (version ~> 7.0.8)

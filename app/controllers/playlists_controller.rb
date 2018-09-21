@@ -13,3 +13,8 @@ class PlaylistsController < ApplicationController
 
     if @playlist.save
       redirect_to videos_path, notice: 'Playlist created successfully'
+    else
+      redirect_to videos_path, alert: 'Failed to create playlist'
+    end
+  end
+

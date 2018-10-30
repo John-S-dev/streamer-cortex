@@ -16,3 +16,4 @@ The Video Playlist App allows users to interact with video content using data fr
 Ensure you have the following installed:
 - Ruby (version 3.2.2)
 - Rails (version ~> 7.0.8)
+

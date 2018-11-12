@@ -3,3 +3,4 @@
 class VideosController < ApplicationController
   ITEMS_PER_PAGE = 20.0
 
+  def index

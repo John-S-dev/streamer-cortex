@@ -2,6 +2,9 @@
 
 module Playlists
   class VideosController < ApplicationController
+    before_action :set_playlist
+    before_action :set_video, only: :destroy
+
     def create
       @video = @playlist.videos.new(video_params)
       if @video.save

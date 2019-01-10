@@ -25,5 +25,10 @@ Ensure you have the following installed:
 - Ruby (version 3.2.2)
 - Rails (version ~> 7.0.8)
 
+    ```bash
+    git clone https://github.com/mehmetabakir/video-playlist-app.git
+    cd video-playlist-app
+    ```
+
 2. **Install Dependencies**
 

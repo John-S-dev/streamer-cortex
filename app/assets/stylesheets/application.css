@@ -1,2 +1,5 @@
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the

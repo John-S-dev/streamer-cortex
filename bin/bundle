@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+  def invoked_as_script?
     File.expand_path($PROGRAM_NAME) == File.expand_path(__FILE__)
   end
 

@@ -13,3 +13,8 @@
   padding-top: 20px;
 }
 
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ddd;

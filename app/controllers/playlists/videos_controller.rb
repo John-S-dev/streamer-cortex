@@ -13,6 +13,7 @@ module Playlists
         redirect_to @playlist, alert: @video.errors.full_messages.to_sentence
       end
     end
+
       end
     end
 

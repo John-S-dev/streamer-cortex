@@ -4,6 +4,8 @@
 
 The Video Playlist App allows users to interact with video content using data from the Mock YouTube API. Users can fetch and display videos, create playlists, and manage their contents.
 
+## Features
+
 - **Fetch and Display Videos**: Retrieve and show a list of videos from the Mock YouTube API.
 - **Create Playlists**: Create new, empty playlists with custom names.
 - **Manage Playlists**: Add videos to playlists and remove videos from them.

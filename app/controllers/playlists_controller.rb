@@ -21,3 +21,5 @@ class PlaylistsController < ApplicationController
     end
   end
 
+  private
+

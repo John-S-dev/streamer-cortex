@@ -38,3 +38,7 @@ Ensure you have the following installed:
 
 2. **Install Dependencies**
 
+    ```bash
+    bundle install
+    ```
+

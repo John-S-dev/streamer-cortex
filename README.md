@@ -44,3 +44,5 @@ Ensure you have the following installed:
 
 3. **Database Setup**
 
+4. **Start the Server**
+

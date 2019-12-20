@@ -17,3 +17,4 @@ module Playlists
       end
     end
 
+    def set_playlist

@@ -3,3 +3,5 @@
     <%= link_to 'Video Playlist App', root_path, class: 'navbar-brand' %>
     <%= form_with url: videos_path(page: @page), method: :get, class: 'd-flex' do |form| %>
       <%= form.text_field :search, class: 'form-control me-2', placeholder: 'Search videos...', value: params[:search] %>
+      <%= form.submit 'Search', class: 'btn btn-outline-success' %>
+    <% end %>

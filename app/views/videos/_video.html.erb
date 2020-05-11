@@ -6,3 +6,6 @@
       <div class='dropdown'>
       <% if playlists.any? %>
         <button class='btn btn-primary dropdown-toggle mb-2' type='button' id='dropdownMenuButton-<%= video['id'] %>' data-bs-toggle='dropdown' aria-expanded='false'>
+          Add to playlist
+        </button>
+        <ul class='dropdown-menu' aria-labelledby='dropdownMenuButton-<%= video['id'] %>'>

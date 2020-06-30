@@ -9,4 +9,8 @@
 #  video_id      :string
 #  title         :string
 #  description   :text
+#  updated_at    :datetime         not null
+#
+class Video < ApplicationRecord
+  belongs_to :playlist
 

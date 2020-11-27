@@ -6,3 +6,7 @@ class VideosController < ApplicationController
   before_action :set_videos_data
 
   def index
+  def fetch_videos_and_page
+    videos = @videos_data['videos']
+    total_items = @videos_data['meta']['total']
+    total_pages = (total_items / ITEMS_PER_PAGE).ceil

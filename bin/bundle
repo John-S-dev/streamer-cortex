@@ -25,6 +25,10 @@ m = Module.new do
     return unless invoked_as_script? # don't want to hijack other binstubs
     return unless 'update'.start_with?(ARGV.first || ' ') # must be running `bundle update`
 
+  def gemfile
+    gemfile = ENV['BUNDLE_GEMFILE']
+    return gemfile if gemfile && !gemfile.empty?
+
   def lockfile
       env_var_version ||
       cli_arg_version ||

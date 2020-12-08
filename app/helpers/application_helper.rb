@@ -5,3 +5,6 @@ module ApplicationHelper
     case flash_type
     when 'alert'
       'alert-danger'
+    else
+      'alert-info'
+    end

@@ -57,3 +57,5 @@ Ensure you have the following installed:
 
 ## Usage
 
+Use the search bar to filter videos by title. Navigate through paginated video lists using the pagination controls.
+

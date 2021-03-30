@@ -6,6 +6,9 @@ class VideosController < ApplicationController
   before_action :set_videos_data
 
   def index
+    @videos, @total_pages = fetch_videos_and_page
+  end
+
   def fetch_videos_and_page
     videos = @videos_data['videos']
     total_items = @videos_data['meta']['total']

@@ -57,6 +57,8 @@ Ensure you have the following installed:
 
 ## Usage
 
+### Add/Remove Videos
+
 - **Add Videos**: On the **Index Page**, use the "Add to Playlist" dropdown menu on each video card to add the video to a specific playlist.
 - **Remove Videos**: On the **Playlist Show Page**, click the "Remove Video" button on specific video card to remove it from the playlist.
 

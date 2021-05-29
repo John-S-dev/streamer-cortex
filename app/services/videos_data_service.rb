@@ -7,3 +7,7 @@ class VideosDataService
     new(page).fetch_videos_data
   end
 
+  def initialize(page)
+    @page = page
+  end
+

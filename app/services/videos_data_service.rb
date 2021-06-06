@@ -11,3 +11,4 @@ class VideosDataService
     @page = page
   end
 
+  def fetch_videos_data

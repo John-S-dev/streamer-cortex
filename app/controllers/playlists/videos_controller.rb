@@ -22,5 +22,7 @@ module Playlists
       end
     end
 
+    private
+
     def set_playlist
 

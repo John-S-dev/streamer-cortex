@@ -33,6 +33,9 @@ m = Module.new do
     return gemfile if gemfile && !gemfile.empty?
 
   def lockfile
+    Regexp.last_match(1)
+  end
+
   def bundler_requirement
     @bundler_requirement ||=
       env_var_version ||

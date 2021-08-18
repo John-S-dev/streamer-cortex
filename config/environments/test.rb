@@ -23,3 +23,6 @@ Rails.application.configure do
   config.action_controller.perform_caching = false
   config.cache_store = :null_store
 
+  # Disable request forgery protection in test environment.
+  config.action_controller.allow_forgery_protection = false
+

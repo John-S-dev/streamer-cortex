@@ -12,3 +12,8 @@ class VideosDataService
   end
 
   def fetch_videos_data
+    end
+  rescue StandardError => e
+    handle_error(e)
+  end
+

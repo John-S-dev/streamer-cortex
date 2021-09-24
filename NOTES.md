@@ -1,2 +1,5 @@
 - 2020-09-07 23:17:26 UTC: chore: bump version
 - 2020-11-26 11:08:49 UTC: test: add unit tests
+- 2021-06-04 12:38:33 UTC: feat: add core functionality
+- 2021-10-26 13:50:43 UTC: chore: initial project setup
+- 2022-09-30 07:14:44 UTC: fix: resolve minor bug

@@ -55,6 +55,8 @@ Ensure you have the following installed:
     bundle exec rails server
     ```
 
+    Open your browser and navigate to `http://localhost:3000` to view the app.
+
 ## Usage
 
 ### Add/Remove Videos

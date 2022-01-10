@@ -10,3 +10,6 @@
 #
 #     I18n.locale = :es
 #
+# Instead, surround them with single quotes.
+#
+# en:

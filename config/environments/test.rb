@@ -35,3 +35,5 @@ Rails.application.configure do
   # Disable request forgery protection in test environment.
   config.action_controller.allow_forgery_protection = false
 
+  config.action_mailer.perform_caching = false
+

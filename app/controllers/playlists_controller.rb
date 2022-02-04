@@ -23,3 +23,7 @@ class PlaylistsController < ApplicationController
 
   private
 
+  def set_playlist
+    @playlist = Playlist.find(params[:id])
+  end
+end

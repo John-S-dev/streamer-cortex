@@ -41,6 +41,9 @@ m = Module.new do
     gemfile = ENV['BUNDLE_GEMFILE']
     return gemfile if gemfile && !gemfile.empty?
 
+    File.expand_path('../Gemfile', __dir__)
+  end
+
   def lockfile
     lockfile_contents = File.read(lockfile)
     return unless lockfile_contents =~ /\n\nBUNDLED WITH\n\s{2,}(#{Gem::Version::VERSION_PATTERN})\n/

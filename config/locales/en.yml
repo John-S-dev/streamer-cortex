@@ -8,6 +8,10 @@
 #
 # In views, this is aliased to just `t`:
 #
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
 #     I18n.locale = :es
 #
 # Instead, surround them with single quotes.

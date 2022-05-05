@@ -58,3 +58,5 @@ m = Module.new do
       bundler_requirement_for(lockfile_version)
   end
 
+    bundler_gem_version = Gem::Version.new(version)
+

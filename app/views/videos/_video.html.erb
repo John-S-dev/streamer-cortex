@@ -9,3 +9,6 @@
           Add to playlist
         </button>
         <ul class='dropdown-menu' aria-labelledby='dropdownMenuButton-<%= video['id'] %>'>
+          <% playlists.each do |playlist| %>
+            <li><%= button_to playlist.name, playlist_videos_path(playlist, video: video), method: :post, class: 'dropdown-item' %></li>
+          <% end %>

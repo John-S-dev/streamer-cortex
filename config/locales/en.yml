@@ -14,6 +14,9 @@
 #
 #     I18n.locale = :es
 #
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
 # Instead, surround them with single quotes.
 #
 # en:

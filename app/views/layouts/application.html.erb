@@ -12,6 +12,9 @@
 <body>
     <div class='container-fluid'>
     <header class='row'>
+      <%= render 'layouts/header' %>
+    </header>
+    <% flash.each do |type, message| %>
       <div class='alert <%= bootstrap_class_for(type) %> alert-dismissible fade show' role='alert'>
         <%= message %>
       </div>

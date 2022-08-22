@@ -45,6 +45,14 @@ m = Module.new do
   end
 
   def lockfile
+    lockfile =
+      case File.basename(gemfile)
+      when 'gems.rb' then gemfile.sub(/\.rb$/, '.locked')
+      else "#{gemfile}.lock"
+      end
+    File.expand_path(lockfile)
+  end
+
     lockfile_contents = File.read(lockfile)
     return unless lockfile_contents =~ /\n\nBUNDLED WITH\n\s{2,}(#{Gem::Version::VERSION_PATTERN})\n/
 

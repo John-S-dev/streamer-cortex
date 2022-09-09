@@ -10,5 +10,7 @@
 # migrations from scratch. Old migrations may fail to apply correctly if those
 # migrations use external dependencies or application code.
 #
+# It's strongly recommended that you check this file into your version control system.
+
   create_table 'videos', force: :cascade do |t|
     t.integer 'playlist_id', null: false

@@ -68,3 +68,6 @@ m = Module.new do
 
     bundler_gem_version = Gem::Version.new(version)
 
+  def load_bundler!
+    ENV['BUNDLE_GEMFILE'] ||= gemfile
+

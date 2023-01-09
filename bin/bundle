@@ -71,3 +71,6 @@ m = Module.new do
   def load_bundler!
     ENV['BUNDLE_GEMFILE'] ||= gemfile
 
+  def activate_bundler
+    gem_error = activation_error_handling do
+      gem 'bundler', bundler_requirement

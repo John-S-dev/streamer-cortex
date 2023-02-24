@@ -40,6 +40,9 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  # Print deprecation notices to the stderr.
+  config.active_support.deprecation = :stderr
+
   config.active_support.disallowed_deprecation = :raise
 
   # Tell Active Support which deprecation messages to disallow.

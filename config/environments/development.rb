@@ -47,3 +47,6 @@ Rails.application.configure do
   # Tell Active Support which deprecation messages to disallow.
   config.active_support.disallowed_deprecation_warnings = []
 
+  # Highlight code that triggered database queries in logs.
+  config.active_record.verbose_query_logs = true
+

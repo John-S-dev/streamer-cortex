@@ -10,3 +10,4 @@ class CreateVideos < ActiveRecord::Migration[7.0]
       t.string :thumbnail_url
       t.integer :views
 
+      t.timestamps

@@ -26,6 +26,11 @@ module Playlists
 
     def set_playlist
 
+          :title,
+          :description,
+          :thumbnail_url,
+          :views
+        )
     end
   end
 end

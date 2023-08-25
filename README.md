@@ -72,6 +72,8 @@ Click on the "Create Playlist" **Sidebar** button to navigate to the Playlist Cr
 - **Add Videos**: On the **Index Page**, use the "Add to Playlist" dropdown menu on each video card to add the video to a specific playlist.
 - **Remove Videos**: On the **Playlist Show Page**, click the "Remove Video" button on specific video card to remove it from the playlist.
 
+### Search and Pagination (Bonus)
+
 Use the search bar to filter videos by title. Navigate through paginated video lists using the pagination controls.
 
   "videos": [

@@ -78,6 +78,9 @@ m = Module.new do
   def activate_bundler
     gem_error = activation_error_handling do
       gem 'bundler', bundler_requirement
+    end
+    return if gem_error.nil?
+
     require_error = activation_error_handling do
       require 'bundler/version'
     end

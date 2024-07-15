@@ -76,6 +76,8 @@ Click on the "Create Playlist" **Sidebar** button to navigate to the Playlist Cr
 
 Use the search bar to filter videos by title. Navigate through paginated video lists using the pagination controls.
 
+## API Reference
+
   "videos": [
     {
       "id": 1,

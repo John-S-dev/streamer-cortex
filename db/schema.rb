@@ -25,3 +25,5 @@ ActiveRecord::Schema[7.0].define(version: 20_240_715_200_615) do
     t.string 'title'
     t.text 'description'
     t.string 'thumbnail_url'
+  add_foreign_key 'videos', 'playlists'
+end

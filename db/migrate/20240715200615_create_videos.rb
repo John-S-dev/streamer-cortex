@@ -11,3 +11,6 @@ class CreateVideos < ActiveRecord::Migration[7.0]
       t.integer :views
 
       t.timestamps
+    end
+  end
+end

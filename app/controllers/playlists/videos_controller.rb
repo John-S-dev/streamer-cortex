@@ -28,6 +28,9 @@ module Playlists
       @playlist = Playlist.find(params[:playlist_id])
     end
 
+    def set_video
+      @video = @playlist.videos.find(params[:id])
+    end
 
           :title,
           :description,

@@ -78,6 +78,8 @@ Use the search bar to filter videos by title. Navigate through paginated video l
 
 ## API Reference
 
+```json
+{
   "videos": [
     {
       "id": 1,

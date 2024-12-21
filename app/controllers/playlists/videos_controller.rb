@@ -32,6 +32,11 @@ module Playlists
       @video = @playlist.videos.find(params[:id])
     end
 
+    def video_params
+      params
+        .require(:video)
+        .permit(
+          :video_id,
           :title,
           :description,
           :thumbnail_url,

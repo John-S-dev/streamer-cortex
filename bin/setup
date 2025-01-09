@@ -20,3 +20,6 @@ FileUtils.chdir APP_ROOT do
   system('bundle check') || system!('bundle install')
 
 
+  puts "\n== Preparing database =="
+  system! 'bin/rails db:prepare'
+

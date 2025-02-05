@@ -4,3 +4,5 @@ ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 require 'rails/test_help'
 
+    parallelize(workers: :number_of_processors)
+

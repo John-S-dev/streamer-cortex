@@ -8,3 +8,5 @@ module ApplicationHelper
     else
       'alert-info'
     end
+  end
+end

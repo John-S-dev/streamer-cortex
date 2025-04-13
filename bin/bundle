@@ -93,3 +93,5 @@ m = Module.new do
       return
     end
 
+m.load_bundler!
+

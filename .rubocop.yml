@@ -21,3 +21,8 @@ Metrics/BlockLength:
 Style/StringLiterals:
   EnforcedStyle: single_quotes
 
+Metrics/MethodLength:
+  Max: 15
+
+Naming/PredicateName:
+  Enabled: false

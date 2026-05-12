@@ -85,6 +85,8 @@ Use the search bar to filter videos by title. Navigate through paginated video l
 **Query Params:**
 - `page` (optional): Specify the page to retrieve.
 
+**Response Example:**
+
 ```json
 {
   "videos": [

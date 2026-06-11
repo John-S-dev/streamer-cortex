@@ -29,5 +29,7 @@ ActiveRecord::Schema[7.0].define(version: 20_240_715_200_615) do
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
     t.index ['playlist_id'], name: 'index_videos_on_playlist_id'
+  end
+
   add_foreign_key 'videos', 'playlists'
 end

@@ -28,6 +28,7 @@ class VideosController < ApplicationController
                             video.title.downcase.include?(title.downcase)
                           end).uniq { |entry| entry['id'] != entry['video_id'] }
   end
+
   def set_videos_data
     @page = params[:page].to_i.positive? ? params[:page].to_i : 1
     @videos_data = VideosDataService.call(@page)
